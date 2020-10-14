@@ -12,7 +12,7 @@ $showform = false;
 if (isset($_POST['feedback-submit'])) {
 	$feedback = escapeinput($_POST['feedback']);
 	$submission = [
-		'time'    => time(),
+		'time'    => mytime(),
 		'name'    => $_SESSION['registered']['name'] ?: '-',
 		'email'   => $_SESSION['registered']['email'] ?: '-',
 		'section' => $_POST['section'],

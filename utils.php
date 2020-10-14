@@ -109,7 +109,7 @@ function make_quiz($choices) {
 		$_SESSION[$page['id']] = [
 			'correct?' => $all_correct,
 			'value'    => $submitted,
-			'time'     => time(),
+			'time'     => mytime(),
 		];
 	}
 
@@ -144,6 +144,7 @@ function registered() {
 	return isset($_SESSION['registered']);
 }
 
+function mytime() { return date('Y-m-d H:i:s'); }
 function escapeinput($data) { return trim($data); }
 function escapeoutput($data) { return htmlspecialchars($data); }
 

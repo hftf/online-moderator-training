@@ -25,7 +25,7 @@ else if (isset($_POST['register-submit'])) {
 	}
 	else {
 		$_SESSION['registered'] = ['name' => $name, 'email' => $email];
-		$_SESSION['register'] = ['value' => $_POST['register-submit'], 'time' => time()];
+		$_SESSION['register'] = ['value' => $_POST['register-submit'], 'time' => mytime()];
 		echo '<p><strong>Registered!</strong></p>';
 	}
 }

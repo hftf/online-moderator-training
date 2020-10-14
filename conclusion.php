@@ -13,31 +13,31 @@ if (isset($_SESSION['conclusion'])) {
 }
 else if (isset($_POST['conclusion-submit']) and !defined('AGAIN')) {
 	$submission = [
-		'time'    => time(),
+		'time'    => mytime(),
 		'name'    => $_SESSION['registered']['name'] ?: '-',
 		'email'   => $_SESSION['registered']['email'] ?: '-',
 		'q1'      => implode($_SESSION['q1']['value'] ?: ['-']),
-		'q1t'     => $_SESSION['q1']['time']  ?: '-',
 		'q2'      => implode($_SESSION['q2']['value'] ?: ['-']),
-		'q2t'     => $_SESSION['q2']['time']  ?: '-',
 		'q3'      => implode($_SESSION['q3']['value'] ?: ['-']),
-		'q3t'     => $_SESSION['q3']['time']  ?: '-',
 		'q4'      => implode($_SESSION['q4']['value'] ?: ['-']),
-		'q4t'     => $_SESSION['q4']['time']  ?: '-',
 		'q5'      => implode($_SESSION['q5']['value'] ?: ['-']),
-		'q5t'     => $_SESSION['q5']['time']  ?: '-',
 		'q6'      => implode($_SESSION['q6']['value'] ?: ['-']),
-		'q6t'     => $_SESSION['q6']['time']  ?: '-',
 		'q7'      => implode($_SESSION['q7']['value'] ?: ['-']),
-		'q7t'     => $_SESSION['q7']['time']  ?: '-',
 		'q8'      => implode($_SESSION['q8']['value'] ?: ['-']),
+		'q1t'     => $_SESSION['q1']['time']  ?: '-',
+		'q2t'     => $_SESSION['q2']['time']  ?: '-',
+		'q3t'     => $_SESSION['q3']['time']  ?: '-',
+		'q4t'     => $_SESSION['q4']['time']  ?: '-',
+		'q5t'     => $_SESSION['q5']['time']  ?: '-',
+		'q6t'     => $_SESSION['q6']['time']  ?: '-',
+		'q7t'     => $_SESSION['q7']['time']  ?: '-',
 		'q8t'     => $_SESSION['q8']['time']  ?: '-',
 		'testing' => $_SESSION['testing']['value']  ?: '-',
 	];
 	$fh = fopen('_submissions.csv', 'a');
 	fputcsv($fh, $submission);
 	fclose($fh);
-	$_SESSION['conclusion'] = ['time' => time()];
+	$_SESSION['conclusion'] = ['time' => mytime()];
 	echo '<p><strong>Completion submitted! Thank you!</strong></p>';
 }
 else {

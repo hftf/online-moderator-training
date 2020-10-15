@@ -17,11 +17,11 @@ require_once 'header.php';
 
 <p>There are <mark>8 quiz questions</mark> to test your understanding of the training material and also of standard quizbowl rules and procedures.</p>
 
-<p>The quiz is not timed; you can pause and come back to it as necessary. However, we ask that you read closely and try to remain engaged throughout. Taking this training seriously will improve the experience for yourself, the other staffers, and players at your next online tournament.</p>
+<p>The quiz is not timed; you can pause and come back to it as necessary. However, we ask that you read closely and try to remain engaged throughout. Taking this training seriously will improve the experience for yourself, the other staffers, and players at your next online tournament. No need to stress over incorrect answers either.</p>
 
 <h3>Interactive training</h3>
 
-<p>The interactive training tracks your progress as you read each section. Click the <b>Continue</b> button below a section to mark it as complete. If you <a href="register.php">register for the interactive training</a>, a record of your completion will be submitted to ACF. You can also leave feedback directly on any section.</p>
+<p>The interactive training tracks your progress as you read each section. Click the <b>Continue</b> button below a section to mark it as complete. If you <a href="register.php">register for the interactive training</a>, a record of your completion will be submitted to ACF. You can read the sections or do the quiz in any order. You can also leave feedback directly on any section.</p>
 
 <p>For technical issues with the interactive training, please email <a href="mailto:quizbowl@ophir.li">quizbowl@ophir.li</a>.</p>
 

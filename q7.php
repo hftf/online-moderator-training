@@ -11,7 +11,7 @@ require_once 'header.php';
 
 <h2><?php echo $page['title']; ?></h2>
 
-<p>According to the ACF standard rules, which of these situations are protestable?</p>
+<p>According to the <a href="https://acf-quizbowl.com/gameplay-rules/">ACF standard rules</a>, which of these situations are protestable?</p>
 
 <?php
 make_quiz([

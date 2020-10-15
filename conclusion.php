@@ -56,10 +56,10 @@ if (true or $showform or defined('AGAIN')) {
 	<li><a href="https://hsquizbowl.org/forums/viewtopic.php?f=30&amp;t=21132">Thread about moderator resources on the hsquizbowl.org forums</a></li>
 	<li><a href="http://www.pace-nsc.org/online-tournament-guide/">PACE’s guide to online tournaments</a></li>
 	<li><a href="https://www.naqt.com/online/">NAQT’s guide to online tournaments</a></li>
-	<li>Ophir’s <a href="https://www.notion.so/Online-tournaments-1c15784884a7401ba9268ff7fe0a2644#635621e0c7d54d2db5a38f9be5f088a5">guide to online tournaments</a></li>
+	<li><a href="https://www.notion.so/Online-tournaments-1c15784884a7401ba9268ff7fe0a2644#635621e0c7d54d2db5a38f9be5f088a5">Ophir’s guide to online tournaments</a></li>
 </ul>
 
-<p>We’d like to continue this training in the future, so we welcome any feedback or suggestions. If you have further questions or you’d like to provide feedback, please contact:</p>
+<p>We’d like to continue this training in the future, so we welcome any feedback or suggestions. If you have further questions, or you’d like to provide feedback, please use the form below or contact:</p>
 <ul>
 	<li>ACF: Jonathan Magin, <a href="mailto:jonathan.magin@gmail.com">jonathan.magin@gmail.com</a></li>
 	<li>PACE: Victor Prieto, <a href="mailto:vprieto@pace-nsc.org">vprieto@pace-nsc.org</a></li>
@@ -68,9 +68,13 @@ if (true or $showform or defined('AGAIN')) {
 <?php
 }
 if ($showform) {
-$buttons = [['conclusion-submit', 'Submit a record of your completion!']];
+	echo '<p>Click the button below to submit a record of your completion to ACF.</p>';
+	if (!registered()) {
+		echo '<p><strong>We recommend that you <a href="register.php">register</a> before submitting.</strong></p>';
+	}
+	$buttons = [['conclusion-submit', 'Submit a record of your completion!']];
 } else {
-$buttons = [];
+	$buttons = [];
 }
 
 

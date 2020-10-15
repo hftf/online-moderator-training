@@ -23,7 +23,7 @@ h1 { font-size: 1.5em; }
 h2 { font-size: 1.3em; }
 h3 { font-size: 1.15em; }
 h4 { margin: 0.5em 0; }
-mark { background: none; text-shadow: 0 0 1.5px #7eb7fd; }
+mark, .cur { background: none; text-shadow: 0 0 1.5px #ee6; }
 
 ol.quiz {
 	list-style-type: none;

@@ -11,7 +11,7 @@ require_once 'header.php';
 
 <h2><?php echo $page['title']; ?></h2>
 
-<p>You are reading a team a bonus question. According to the ACF and PACE rules, which of the following statements are correct?</p>
+<p>You are reading a team a bonus question. According to the <a href="https://acf-quizbowl.com/gameplay-rules/">ACF</a> and <a href="http://www.pace-nsc.org/wordpress/wp-content/uploads/2019/10/191027_PACE_ruleset.pdf">PACE</a> rules, which of the following statements are correct?</p>
 
 <?php
 make_quiz([

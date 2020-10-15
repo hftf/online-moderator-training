@@ -18,7 +18,7 @@ make_quiz([
 'A' => 'Do a roll call to ensure that all players on both teams are present and ready to play.',
 'B' => 'Ensure that players can hear your voice clearly. ',
 'C' => 'If the tournament requires players to have their cameras turned on, ensure that all players are using cameras.',
-'D' => 'Arrange your computer windows so that the questions, the game text channel, and (if scorekeeping) the scoresheet is visible.',
+'D' => 'Arrange your computer windows so that the questions, the game text channel, and (if scorekeeping) the scoresheet are visible.',
 'E' => 'Test your computer’s microphone before the tournament.',
 ]);
 if (isset($_SESSION[$page['id']]) or defined('AGAIN')) {

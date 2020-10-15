@@ -11,7 +11,7 @@ require_once 'header.php';
 
 <h2><?php echo $page['title']; ?></h2>
 
-<p>You are reading a tossup. Player A on Team 1 buzzes first, and Player B on Team 2 buzzes right after. Player A gets the tossup incorrect. According to the online-specific ACF and PACE rules, what is the correct thing to do next?</p>
+<p>You are reading a tossup. Player A on Team 1 buzzes first, and Player B on Team 2 buzzes right after. Player A gets the tossup incorrect. According to the online-specific <a href="https://acf-quizbowl.com/gameplay-rules/#appendix-1-online-play">ACF</a> and <a href="http://www.pace-nsc.org/online-tournament-guide/players/online-tournament-rules/">PACE</a> rules, what is the correct thing to do next?</p>
 
 <?php
 make_quiz([

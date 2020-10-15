@@ -63,19 +63,19 @@ function module_nav_aux($modules) {
 			ob_end_clean();
 			$reading_time = (str_word_count(strip_tags($buffer)) / 200);
 			$completed = isset($_SESSION[$module_id]);
-			$module_count ++;
-			$modules_completed += $completed;
-			echo '<div><a href="' . $filename . '"><span class="bar">';
+			if ($module_id != 'conclusion') {
+				$module_count ++;
+				$modules_completed += $completed;
+			}
+			echo '<div><a href="' . $filename . '"' . (($tmp_page['id'] == $module_id) ? ' class="cur"' : '') . '><span class="bar">';
 			if ($module_id[0] == 'q') {
 				if ($completed) echo $_SESSION[$module_id]['correct?'];
 				else echo '❓';
-			} else {
-			echo '<span style="width: ' . ceil($reading_time * 18) . 'px;"' . ($completed ? ' class="completed"' : '') . '></span>';
 			}
-			echo '</span>';
-			$title = ($page['short'] ?: $page['title']);
-			if ($tmp_page['id'] == $module_id) $title = "<mark>$title</mark>";
-			echo $title . '</a></div>';
+			else if ($module_id != 'conclusion') {
+				echo '<span style="width: ' . ceil($reading_time * 18) . 'px;"' . ($completed ? ' class="completed"' : '') . '></span>';
+			}
+			echo '</span>' . ($page['short'] ?: $page['title']) . '</a></div>';
 		}
 		if (is_array($children) and !empty($children)) {
 			module_nav_aux($children);

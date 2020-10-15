@@ -6,6 +6,7 @@ $page = [
 ];
 
 require_once 'header.php';
+ini_set('pcre.jit', '0');
 
 $showform = false;
 if (registered()) {

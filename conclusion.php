@@ -68,9 +68,10 @@ if (true or $showform or defined('AGAIN')) {
 <?php
 }
 if ($showform) {
+	echo '<h3>Submit</h3>';
 	echo '<p>Click the button below to submit a record of your completion to ACF.</p>';
 	if (!registered()) {
-		echo '<p><strong>We recommend that you <a href="register.php">register</a> before submitting.</strong></p>';
+		echo '<p><strong>We recommend that you <a href="register.php">register first</a> before submitting.</strong></p>';
 	}
 	$buttons = [['conclusion-submit', 'Submit a record of your completion!']];
 } else {

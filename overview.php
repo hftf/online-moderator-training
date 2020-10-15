@@ -15,7 +15,7 @@ require_once 'header.php';
 
 <h3>Review quiz</h3>
 
-<p>There are <mark>8 quiz questions</mark> to test your understanding of the training material and also of standard quizbowl rules and procedures.</p>
+<p>There are <mark>8 quiz questions</mark> to test your understanding of the training material and also of standard quizbowl rules and procedures. Quiz questions may have multiple correct answers.</p>
 
 <p>The quiz is not timed; you can pause and come back to it as necessary. However, we ask that you read closely and try to remain engaged throughout. Taking this training seriously will improve the experience for yourself, the other staffers, and players at your next online tournament. No need to stress over incorrect answers either.</p>
 

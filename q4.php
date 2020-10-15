@@ -27,7 +27,7 @@ if (isset($_SESSION[$page['id']]) or defined('AGAIN')) {
 
 <p>Only answer <b>C</b> is correct.</p>
 
-<p>Answers <b>A</b> and <b>B</b> are incorrect because after the first player’s buzz is recognized, all other buzzes become invalid. No other buzzes made before the moderator judges the first player’s answer should be recognized. Player B must rebuzz for their buzz to count, and therefore there is no need to withdraw.</p>
-<p>Answer <b>D</b> is also incorrect. While it is true that only players from Team 2 can buzz for the rest of this tossup, moderators should not prompt for buzzes or answers on tossups.</p>
+<p>Answers <b>A</b> and <b>B</b> are incorrect because after the first player’s buzz is recognized, all other buzzes become invalid. No other buzzes made until the moderator judges the first player’s answer should be recognized. Player B must re-buzz (buzz in again) for their buzz to count.</p>
+<p>Answer <b>D</b> is also incorrect. While it is true that only players from Team 2 can buzz for the rest of this tossup, moderators should not invite or prompt for buzzes or answers on tossups.</p>
 
 <?php } require_once 'footer.php'; ?>

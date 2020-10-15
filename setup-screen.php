@@ -14,10 +14,10 @@ require_once 'header.php';
 
 <p>Setting up your screen(s) properly is critical, as moderating an online tournament requires you to keep track of many windows or tabs:</p>
 <ul>
-	<li>questions</li>
-	<li>game text chat (and game voice chat)</li>
-	<li>moderator chat, lobby chat, and possibly others</li>
-	<li>scoresheet (if scorekeeping)</li>
+	<li>packet of <mark>questions</mark></li>
+	<li><mark>game text chat</mark> (and game voice chat)</li>
+	<li><mark>moderator chat</mark>, lobby chat, and possibly others</li>
+	<li><mark>scoresheet</mark> (if scorekeeping)</li>
 </ul>
 
 <p>Arrange your windows so that you can at least see the <mark>questions</mark> and monitor the <mark>game text chat</mark> at the same time.</p>
@@ -29,6 +29,6 @@ require_once 'header.php';
 		</ul>
 	</li>
 </ul>
-<p>Consider using an external device (e.g. a phone, tablet, or second monitor) if you have trouble handling many streams of information on one device. In particular, Discord video is highly resource-intensive. Try out your equipment beforehand to see if you can get a better connection by joining via phone and pulling up packets on your computer.</p>
+<p>Consider using an <mark>external device</mark> (e.g. a phone, tablet, or second monitor) if you have trouble handling many streams of information on one device. In particular, Discord video is highly resource-intensive. Try out your equipment beforehand to see if you can get a better connection by joining via phone and pulling up packets on your computer.</p>
 
 <?php require_once 'footer.php'; ?>

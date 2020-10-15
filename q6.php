@@ -26,7 +26,7 @@ if (isset($_SESSION[$page['id']]) or defined('AGAIN')) {
 <h3>Explanation</h3>
 <p><b>D</b> is correct: see Sections E.9 and E.10 of the ACF rules. Moderator errors of this type are only resolved if they can alter the outcome of the game, and cannot result in the affected team getting points for bonus parts that they had already answered incorrectly.</p>
 <p><b>A</b> is not correct: the moderator should prompt for an answer after 7 seconds (Section E.5).</p>
-<p><b>B</b> is not correct: only answers that are preceded or followed by the word “directed” will be considered an official answer in an online game (Section E.4.A).</p>
+<p><b>B</b> is not correct: only answers that are preceded by “Our answer is” or followed by the word “directed” will be considered an official answer in an online game (Section E.4.A).</p>
 <p><b>C</b> is not correct: any player may direct a bonus answer (Section E.4.D) and teams do not receive additional time by deferring to a specific teammate (Section E.4.E).</p>
 
 <?php } require_once 'footer.php'; ?>

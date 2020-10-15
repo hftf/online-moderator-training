@@ -15,7 +15,7 @@ require_once 'header.php';
 
 <?php
 make_quiz([
-'a' => 'The team that won the match wishes to protest that their incorrect answer to a question should have been acceptable.',
+'a' => 'A player on the team that won the match wishes to protest that their incorrect answer to a question should have been acceptable.',
 'B' => 'You repeatedly see or hear a player typing extensively, and then buzzing, while you are reading tossups.',
 'c' => 'While you are reading a bonus to one team, a player from the opposing team complains in the chat about having lost the buzzer race on the preceding tossup.',
 'd' => 'When you start the round, one team is missing a player who is listed on their roster, but that player shows up after 3 questions.',

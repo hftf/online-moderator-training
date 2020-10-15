@@ -32,7 +32,7 @@ require_once 'header.php';
 	</li>
 	<li><p>If possible, have someone else join a call with you and read them a few questions.</p>
 		<ul>
-			<li>Make sure you are clearly understood all the way through your sentences. If you are cutting out on Discord, consider switching to Push-to-Talk in <b>Voice and Video</b>.</li>
+			<li>Make sure you are clearly understood all the way through your sentences. If you are cutting out on Discord, consider lowering your microphone sensitivity threshold to zero, or instead switching to using Push-to-Talk, in <b>Voice and Video</b>.</li>
 			<li>Ensure you can quickly you can switch between reading the packet and checking Discord/Zoom for buzzes.</li>
 		</ul>
 	</li>

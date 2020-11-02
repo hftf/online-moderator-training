@@ -36,7 +36,8 @@ require_once 'header.php';
 <ul>
 	<li>
 		<p>For a tossup, the swing is the sum of the values in the table below. It can range from 40 up to 80 <span class="gray">(or 90*)</span> points.</p>
-		<table border="1">
+		<div style="overflow-x: auto;">
+		<table border="1" style="min-width: 24em;">
 			<thead>
 				<tr><td></td><th>Protesting team</th><th>Opponent</th></tr>
 			</thead>
@@ -46,15 +47,16 @@ require_once 'header.php';
 					<td>10<br />
 						+ 5 if neg<br />
 						<span class="gray">+ 5 if would have been power*</span></td>
-					<td>points scored (0, 10, <span class="gray">or 15*</span>)</td>
+					<td>points scored <nobr>(0, 10, <span class="gray">or 15*</span>)</nobr></td>
 				</tr>
 				<tr>
 					<th>Bonus</th>
 					<td>30</td>
-					<td>points scored (0, 10, 20, or 30)</td>
+					<td>points scored <nobr>(0, 10, 20, or 30)</nobr></td>
 				</tr>
 			</tbody>
 		</table>
+	</div>
 		<p class="gray">* only in formats with powers</p>
 	</li>
 	<li><p>For a bonus, the swing is 10 points per bonus part under protest.</p></li>

@@ -50,6 +50,12 @@ ol.quiz li label {
 .actions > p:first-child > input[type="submit"] {
 	font-weight: 500;
 }
+@media screen and (max-width: 600px) {
+	.actions.fb {
+		display: block;
+	}
+}
+
 table {
 	border-collapse: collapse;
 }

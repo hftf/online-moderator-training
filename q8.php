@@ -26,6 +26,7 @@ if (isset($_SESSION[$page['id']]) or defined('AGAIN')) {
 
 <h3>Explanation</h3>
 
-<p><b>All answers</b> are correct. Before beginning a round, you should ensure that all players are ready to play, can hear you (and each other), and have video on if required. You should also make sure that your computer screen setup enables you to carry out all your moderating tasks easily. Regarding answer <b>E</b>, you should make sure that your microphone is adequate well in advance of the tournament so that you have time to troubleshoot if necessary. If possible, you should purchase and use an external microphone so that you are not relying on your computer’s built-in microphone.</p>
+<p><b>All answers</b> are correct. Before beginning a round, you should ensure that all players are ready to play, can hear you (and each other), and have video on if required. You should also make sure that your computer screen setup enables you to carry out all your moderating tasks easily.</p>
+<p>Regarding answer <b>E</b>, you should also make sure that your microphone is adequate <mark>well before the tournament</mark> so that you have time to troubleshoot if necessary. If possible, you should purchase and use an external microphone so that you are not relying on your computer’s built-in microphone.</p>
 
 <?php } require_once 'footer.php'; ?>

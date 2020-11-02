@@ -21,7 +21,7 @@ require_once 'header.php';
 
 <h3>Interactive training</h3>
 
-<p>The interactive training tracks your progress as you read each section. Click the <b>Continue</b> button below a section to mark it as complete. You can read the sections or do the quiz in any order. You can also leave feedback directly on any section.</p>
+<p>The interactive training tracks your progress as you read each section. Click the <b>Continue</b> button below a section to mark it as complete. You can read the sections or take the quiz in any order. You can also leave feedback directly on any section.</p>
 
 <p>If you <a href="register.php">register for the interactive training</a> and click the <b>Submit a record of your completion!</b> button at the conclusion of the training, a record of your completion will be submitted to ACF.</p>
 

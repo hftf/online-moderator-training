@@ -19,7 +19,7 @@ make_quiz([
 'b' => 'A player argues that the opposing team gave an answer that was accepted but should have been prompted for more information.',
 'C' => 'A player argues that they gave a correct but not sufficiently specific answer, and should have been prompted, but was ruled incorrect instead.',
 'D' => 'A player argues that the opposing team was ruled correct for an answer that should have been ruled incorrect, either to an error by either the packet or moderator.',
-'e' => 'A player claims that they were given only 6 seconds to answer a tossup rather than the full 8.',
+'e' => 'A player claims that they were given only 6 seconds to answer a tossup rather than the full 8 seconds.',
 ]);
 if (isset($_SESSION[$page['id']]) or defined('AGAIN')) {
 ?>

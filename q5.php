@@ -17,7 +17,7 @@ make_quiz([
 'A' => 'The player who buzzed in has 8 seconds to answer before the moderator calls time.',
 'b' => 'Other team members are allowed to talk with the player who buzzed in before that player gives their answer.',
 'C' => 'The moderator immediately stops reading the tossup and recognizes the player who buzzed.',
-'d' => 'If that player gives an incorrect answer, other people on that player’s team may buzz in once the moderator continues reading.',
+'d' => 'If that player gives an incorrect answer, other people on the same team as the player may buzz in once the moderator continues reading.',
 'E' => 'Players on the other team are allowed to gesture over video (or type non-substantive text, such as “raising my buzzer”) to signal to teammates that they intend to buzz in later.',
 ]);
 if (isset($_SESSION[$page['id']]) or defined('AGAIN')) {

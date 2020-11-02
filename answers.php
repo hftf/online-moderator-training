@@ -15,7 +15,7 @@ require_once 'header.php';
 	<li><p>For online ACF tournaments, players should speak their answers (on both tossups and bonuses), but may type answers if they are in a situation that prevents them from speaking.</p></li>
 	<li><p>For online ACF tournaments, players are required to answer bonus parts by saying “Our answer is…” before giving their response. Moderators should only evaluate answers for bonus parts that are directed this way, and should not consider any other responses.</p>
 		<ul>
-			<li>The TD may also allow other phrases for directing answers.</li>
+			<li><p>The TD may also allow other phrases for directing answers.</p></li>
 		</ul>
 	</li>
 </ul>

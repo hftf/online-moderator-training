@@ -15,9 +15,9 @@ require_once 'header.php';
 
 <?php
 make_quiz([
-'a' => 'You should not prompt teams to give you an answer. If they do not give an answer to the bonus part within 5 seconds, call “Time” and award 0 points for that bonus part.',
+'a' => 'You should not prompt teams to give you an answer. If they do not give an answer to a bonus part within 5 seconds, call “Time” and award 0 points for that bonus part.',
 'b' => 'The first answer that a team member clearly and obviously directs to you – even if they did not say “directed” – is that team’s official answer. Your judgment on whether a player directed an answer to you is not protestable.',
-'c' => 'Only the team’s captain must direct the official answer to you. A team may get 2 additional seconds to answer if its captain says “Defer” or “Designate” indicating that a specific teammate should answer.',
+'c' => 'Only the team’s captain must direct the official answer to you. A team may get 2 additional seconds to answer if the team’s captain says “Defer” or “Designate” to indicate that a specific teammate should answer.',
 'D' => 'If you accidentally reveal one or more bonus answers to a team, you only need to read a replacement bonus if the result of the bonus would change the outcome of a match. If a team answered a bonus part incorrectly before you revealed a different answer, they will not receive 30 points on the replacement bonus even if they answer all 3 parts correctly.',
 ]);
 if (isset($_SESSION[$page['id']]) or defined('AGAIN')) {

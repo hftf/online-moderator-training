@@ -50,6 +50,17 @@ ol.quiz li label {
 .actions > p:first-child > input[type="submit"] {
 	font-weight: 500;
 }
+table {
+	border-collapse: collapse;
+}
+th, td {
+	text-align: left;
+	vertical-align: top;
+	padding: 0.4em 0.6em;
+}
+.gray {
+	color: #686;
+}
 
 label.reg {
 	width: 10em;

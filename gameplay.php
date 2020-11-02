@@ -24,7 +24,8 @@ require_once 'header.php';
 			<li><p>If a player on the other team really wants to buzz again immediately, they can re-buzz.</p></li>
 		</ul>
 	</li>
-	<li><p>After one player answers a tossup incorrectly, players on the other team may, if they like, type non-substantive text in the chat (e.g. <samp>raising my buzzer</samp>) to indicate to their teammates that they intend to buzz.</p></li>
+	<li><p>After one player answers a tossup incorrectly, players on the other team may, if they like, type non-substantive text in the chat, such as “<samp>raising my buzzer</samp>” to indicate to their teammates that they intend to buzz.</p></li>
+	<li><p>During a tossup, players may not <mark>confer</mark>, or convey any potentially substantive information pertinent to the answer. <a href="https://acf-quizbowl.com/gameplay-rules/">Section D.11 of ACF’s gameplay rules</a> covers illegal conferring.</p></li>
 	<li><p>Players must not use external devices during gameplay. If they must, you can tell them to sub themselves out, wait for halftime or the end of the match, or call a timeout.</p></li>
 </ul>
 

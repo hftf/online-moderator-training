@@ -19,7 +19,7 @@ make_quiz([
 'B' => 'Ensure that players can hear your voice clearly. ',
 'C' => 'If the tournament requires players to have their cameras turned on, ensure that all players are using cameras.',
 'D' => 'Arrange your computer windows so that the questions, the game text channel, and (if scorekeeping) the scoresheet are visible.',
-'E' => 'Test your computer’s microphone before the tournament.',
+'E' => 'Test your computer’s microphone.',
 ]);
 if (isset($_SESSION[$page['id']]) or defined('AGAIN')) {
 ?>

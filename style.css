@@ -54,6 +54,9 @@ ol.quiz li label {
 	.actions.fb {
 		display: block;
 	}
+	.actions.fb input[type="submit"] {
+		width: 100%;
+	}
 }
 
 table {

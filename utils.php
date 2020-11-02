@@ -10,9 +10,9 @@ $all_modules = [
 	],
 	'General advice' => [
 		'control'          => [],
+		'reading'          => [],
 		'misconduct'       => [],
 		'protests'         => [],
-		'reading'          => [],
 		'how-to-report'    => [],
 	],
 	'Online-specific advice' => [

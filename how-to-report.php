@@ -12,7 +12,7 @@ require_once 'header.php';
 
 <h2><?php echo $page['title']; ?></h2>
 
-<p>Various sections of this training mention reporting issues to the <abbr title="tournament director">TD</abbr> (or a designated staffer). This section contains guidance for how, and under what circumstances, you should report those issues.</p>
+<p>Various sections of this training mention reporting issues to the TD (tournament director) or a designated staffer. This section contains guidance for how, and under what circumstances, you should report those issues.</p>
 
 <p>Since tournaments have different setups, your TD should tell you their preferred method for reporting issues to them. If they don’t tell you, ask them. Some common options are:</p>
 <ul>

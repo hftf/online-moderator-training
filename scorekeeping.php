@@ -14,6 +14,6 @@ require_once 'header.php';
 <p>Familiarize yourself with the tournament’s scoresheets before the tournament. Scorekeeping guidance depends highly on the specific scorekeeping system.</p></li>
 
 <ul>
-	<li><p>For online ACF tournaments, ACF’s recommended online scorekeeping system has a <a href="http://minkowski.space/quizbowl/manuals/scorekeeping/moderator.html">user manual for guidance</a>. Note that for ACF Fall, only the basic features of the scoresheets are needed.</p></li>
+	<li><p>For online ACF tournaments, ACF’s recommended online scorekeeping system has a <a href="http://minkowski.space/quizbowl/manuals/scorekeeping/moderator.html">user manual for guidance</a>. Note that for ACF Fall and ACF Winter, only the basic features of the scoresheets are needed.</p></li>
 </ul>
 <?php require_once 'footer.php'; ?>

@@ -39,7 +39,7 @@ if ($showform or defined('AGAIN')) {
 ?>
 <h2><?php echo $page['title']; ?></h2>
 
-<p>If you are staffing 2020 ACF Fall and you already filled out the <a href="https://docs.google.com/forms/d/e/1FAIpQLScFPrVwO5ffvyj0cvcgkBsFBD40GExOwbPp3uiE2Nf-GO9mAA/viewform">staffer registration</a> form, please enter the same name and email address that you entered in that form.</p>
+<p>If you are staffing 2020 ACF Fall or 2020 ACF Winter and you already filled out the <a href="https://docs.google.com/forms/d/e/1FAIpQLScFPrVwO5ffvyj0cvcgkBsFBD40GExOwbPp3uiE2Nf-GO9mAA/viewform">staffer registration</a> form, please enter the same name and email address that you entered in that form.</p>
 <p>Your name and email will only be used for the purposes of confirming your staff registration and training completion, and contacting you about feedback you send us.</p>
 
 <p><label class="reg">Full name</label> <input type="text" name="name" /></p>

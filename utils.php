@@ -75,7 +75,7 @@ function module_nav_aux($modules) {
 			else if ($module_id != 'conclusion') {
 				echo '<span style="width: ' . ceil($reading_time * 18) . 'px;"' . ($completed ? ' class="completed"' : '') . '></span>';
 			}
-			echo '</span>' . ($page['short'] ?: $page['title']) . '</a></div>';
+			echo '</span>' . (isset($page['short']) ? $page['short'] : $page['title']) . '</a></div>';
 		}
 		if (is_array($children) and !empty($children)) {
 			module_nav_aux($children);
@@ -105,7 +105,7 @@ function make_quiz($choices) {
 	if (isset($_POST['quiz-submit']) and !isset($_SESSION[$page['id']])) {
 		$corrects = array_filter(array_keys($choices), function($v) { return $v < 'a'; });
 		$submitted = $_POST['quiz'] ?: [];
-		$all_correct = (implode($corrects) == implode($submitted)) ? '💯' : '🍩';
+		$all_correct = (implode($corrects) == implode($submitted)) ? '💯' : '🥯';
 		$_SESSION[$page['id']] = [
 			'correct?' => $all_correct,
 			'value'    => $submitted,
@@ -126,7 +126,7 @@ function make_quiz($choices) {
 		$tag = 'span';
 		if ($quiz_saved) {
 			echo 'disabled ';
-			if ($submitted[$letter]) echo 'checked ';
+			if (isset($submitted[$letter])) echo 'checked ';
 			// $class = 'right';
 			// if ($letter >= 'a' and isset($submitted[$letter])) $class = 'wrong';
 			// if ($letter < 'a' and !isset($submitted[$letter])) $class = 'wrong';
